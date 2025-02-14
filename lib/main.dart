@@ -9,9 +9,9 @@ import 'package:timetracker/screens/task_manager_screen.dart';
 import 'package:timetracker/screens/time_entry_home_screen.dart';
 
 final ColorScheme lightColorScheme = ColorScheme.fromSeed(
-    seedColor: Color.fromARGB(255, 2, 184, 153), brightness: Brightness.light);
+    seedColor: Color.fromARGB(255, 245, 208, 239), brightness: Brightness.light);
 final ColorScheme darkColorScheme = ColorScheme.fromSeed(
-    seedColor: Color.fromARGB(255, 169, 219, 207), brightness: Brightness.dark);
+    seedColor: Color.fromARGB(255, 242, 138, 227), brightness: Brightness.dark);
 
 final ThemeData darkThemeData =
     ThemeData().copyWith(colorScheme: darkColorScheme);
@@ -22,7 +22,7 @@ final ThemeData themeData = ThemeData().copyWith(
     backgroundColor: Color.fromARGB(255, 242, 148, 228),
     titleTextStyle: TextStyle(fontSize: 24, color: Colors.white),
     toolbarHeight: 60,
-    iconTheme: IconThemeData(size: 28, color: Colors.black),
+    iconTheme: IconThemeData(size: 28, color:Colors.black),
   ),
   textTheme: ThemeData().textTheme.copyWith(
         bodyLarge:
